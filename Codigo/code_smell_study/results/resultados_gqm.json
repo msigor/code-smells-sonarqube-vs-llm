@@ -1,0 +1,117 @@
+{
+  "repositorio": "repo",
+  "question1": {
+    "metrica_1_1": {
+      "llm_total": 7,
+      "sonarqube_total": 12,
+      "diferenca_absoluta": 5,
+      "relacao_percentual": 58.333333333333336
+    },
+    "metrica_1_2": {
+      "llm_media_por_arquivo": 7.0,
+      "sonarqube_media_por_arquivo": 6.0,
+      "arquivos_com_smells_llm": 1,
+      "arquivos_com_smells_sonarqube": 2
+    },
+    "metrica_1_3": {
+      "diferenca_media_por_arquivo": 0,
+      "arquivos_comuns": 0,
+      "diferencas_por_arquivo": {}
+    }
+  },
+  "question2": {
+    "metrica_2_1": {
+      "smells_comuns": 2,
+      "total_smells_unicos": 5,
+      "taxa_similaridade_percentual": 40.0
+    },
+    "metrica_2_2": {
+      "llm_exclusivos": 3,
+      "sonar_exclusivos": 0,
+      "taxa_exclusividade_llm": 60.0,
+      "taxa_exclusividade_sonar": 0.0
+    },
+    "metrica_2_3": {
+      "categorias_alta_sobreposicao": 2,
+      "categorias_baixa_sobreposicao": 3,
+      "total_categorias": 5,
+      "sobreposicao_por_categoria": {
+        "Exception Handling": 100.0,
+        "Long Method": 0.0,
+        "Magic Numbers": 100.0,
+        "Duplicate Code": 0.0,
+        "Feature Envy": 0.0
+      }
+    }
+  },
+  "question3": {
+    "metrica_3_1": {
+      "llm_media_por_categoria": 1.4,
+      "sonarqube_media_por_categoria": 6.0,
+      "llm_por_categoria": {
+        "Long Method": 2,
+        "Magic Numbers": 1,
+        "Duplicate Code": 2,
+        "Exception Handling": 1,
+        "Feature Envy": 1
+      },
+      "sonarqube_por_categoria": {
+        "Exception Handling": 6,
+        "Magic Numbers": 6
+      }
+    },
+    "metrica_3_2": {
+      "simultaneos_por_categoria": {
+        "Duplicate Code": 0,
+        "Exception Handling": 1,
+        "Feature Envy": 0,
+        "Long Method": 0,
+        "Magic Numbers": 1
+      },
+      "percentual_simultaneos_por_categoria": {
+        "Duplicate Code": 0.0,
+        "Exception Handling": 100.0,
+        "Feature Envy": 0.0,
+        "Long Method": 0.0,
+        "Magic Numbers": 100.0
+      }
+    },
+    "metrica_3_3": {
+      "exclusivos_llm_por_categoria": {
+        "Duplicate Code": 1,
+        "Exception Handling": 0,
+        "Feature Envy": 1,
+        "Long Method": 1,
+        "Magic Numbers": 0
+      },
+      "exclusivos_sonar_por_categoria": {
+        "Duplicate Code": 0,
+        "Exception Handling": 0,
+        "Feature Envy": 0,
+        "Long Method": 0,
+        "Magic Numbers": 0
+      },
+      "percentual_exclusivos_llm_por_categoria": {
+        "Duplicate Code": 100.0,
+        "Exception Handling": 0.0,
+        "Feature Envy": 100.0,
+        "Long Method": 100.0,
+        "Magic Numbers": 0.0
+      },
+      "percentual_exclusivos_sonar_por_categoria": {
+        "Duplicate Code": 0.0,
+        "Exception Handling": 0.0,
+        "Feature Envy": 0.0,
+        "Long Method": 0.0,
+        "Magic Numbers": 0.0
+      }
+    }
+  },
+  "categorias": [
+    "Duplicate Code",
+    "Exception Handling",
+    "Feature Envy",
+    "Long Method",
+    "Magic Numbers"
+  ]
+}

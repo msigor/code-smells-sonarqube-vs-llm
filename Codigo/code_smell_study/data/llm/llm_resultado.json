@@ -1,22 +1,27 @@
-{
-   "smells_detectados":[
+   {
+      "qntd_smells": 7,
+      "qntd_por_categoria": {
+      "Long Method": 2,
+      "Magic Numbers": 1,
+      "Duplicate Code": 2,
+      "Exception Handling": 1,
+      "Feature Envy": 1
+      },
+      "smells_detectados": [
       "Long Method",
       "Magic Numbers",
-      "Duplicated Logic"
-   ],
-   "descricao":{
-      "Long Method":"Método computeCost muito extenso e complexo",
-      "Magic Numbers":"Valores numéricos codificados diretamente no método",
-      "Duplicated Logic":"Lógica de desconto e cálculo de preço repetitiva"
-   },
-   "localizacao":{
-      "Long Method":"Pub.java:11-40",
-      "Magic Numbers":"Pub.java:11-40",
-      "Duplicated Logic":"Pub.java:11-40"
-   },
-   "confianca":{
-      "Long Method":"alto",
-      "Magic Numbers":"médio",
-      "Duplicated Logic":"médio"
+      "Duplicate Code",
+      "Exception Handling",
+      "Feature Envy",
+      "Duplicate Code",
+      "Long Method"
+      ],
+      "descricao": "Smells incluem métodos longos, números mágicos, código duplicado, tratamento genérico de exceções e lógica enviesada.",
+      "confianca": {
+      "Long Method": "alto",
+      "Magic Numbers": "alto",
+      "Duplicate Code": "médio",
+      "Exception Handling": "médio",
+      "Feature Envy": "baixo"
+      }
    }
-}
