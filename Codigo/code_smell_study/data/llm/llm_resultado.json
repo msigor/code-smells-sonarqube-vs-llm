@@ -1,0 +1,22 @@
+{
+   "smells_detectados":[
+      "Long Method",
+      "Magic Numbers",
+      "Duplicated Logic"
+   ],
+   "descricao":{
+      "Long Method":"Método computeCost muito extenso e complexo",
+      "Magic Numbers":"Valores numéricos codificados diretamente no método",
+      "Duplicated Logic":"Lógica de desconto e cálculo de preço repetitiva"
+   },
+   "localizacao":{
+      "Long Method":"Pub.java:11-40",
+      "Magic Numbers":"Pub.java:11-40",
+      "Duplicated Logic":"Pub.java:11-40"
+   },
+   "confianca":{
+      "Long Method":"alto",
+      "Magic Numbers":"médio",
+      "Duplicated Logic":"médio"
+   }
+}

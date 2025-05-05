@@ -1,0 +1,545 @@
+{
+    "total": 12,
+    "p": 1,
+    "ps": 100,
+    "paging": {
+      "pageIndex": 1,
+      "pageSize": 100,
+      "total": 12
+    },
+    "effortTotal": 120,
+    "issues": [
+      {
+        "key": "d469a0ef-bf03-4c85-b9a7-05acfca6b6d5",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "code-smells:src/main/java/nerdschool/bar/Pub.java",
+        "project": "code-smells",
+        "line": 13,
+        "hash": "e5895a7834d6ffab33e10401fdf8d009",
+        "textRange": {
+          "startLine": 13,
+          "endLine": 13,
+          "startOffset": 22,
+          "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "author": "eaardal@outlook.com",
+        "tags": [
+          "cwe",
+          "error-handling",
+          "cert"
+        ],
+        "creationDate": "2016-02-01T16:04:29-0200",
+        "updateDate": "2025-05-04T21:59:52-0300",
+        "type": "CODE_SMELL",
+        "scope": "MAIN",
+        "quickFixAvailable": false,
+        "messageFormattings": [],
+        "codeVariants": [],
+        "cleanCodeAttribute": "COMPLETE",
+        "cleanCodeAttributeCategory": "INTENTIONAL",
+        "impacts": [
+          {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "MEDIUM"
+          }
+        ],
+        "issueStatus": "OPEN",
+        "prioritizedRule": false
+      },
+      {
+        "key": "17599d4b-72ac-42a7-8897-4eea48ad0d2d",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "code-smells:src/main/java/nerdschool/bar/Pub.java",
+        "project": "code-smells",
+        "line": 30,
+        "hash": "f46cfd798f8a3553ec1b12ac7c7e902d",
+        "textRange": {
+          "startLine": 30,
+          "endLine": 30,
+          "startOffset": 22,
+          "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "author": "eaardal@outlook.com",
+        "tags": [
+          "cwe",
+          "error-handling",
+          "cert"
+        ],
+        "creationDate": "2016-02-01T16:04:29-0200",
+        "updateDate": "2025-05-04T21:59:52-0300",
+        "type": "CODE_SMELL",
+        "scope": "MAIN",
+        "quickFixAvailable": false,
+        "messageFormattings": [],
+        "codeVariants": [],
+        "cleanCodeAttribute": "COMPLETE",
+        "cleanCodeAttributeCategory": "INTENTIONAL",
+        "impacts": [
+          {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "MEDIUM"
+          }
+        ],
+        "issueStatus": "OPEN",
+        "prioritizedRule": false
+      },
+      {
+        "key": "11bfd34b-beab-425e-a6b7-deef4054da63",
+        "rule": "java:S3400",
+        "severity": "MINOR",
+        "component": "code-smells:src/main/java/nerdschool/bar/Pub.java",
+        "project": "code-smells",
+        "line": 40,
+        "hash": "3b35169ed0db8128e38c37eb5ce46a87",
+        "textRange": {
+          "startLine": 40,
+          "endLine": 40,
+          "startOffset": 15,
+          "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method and declare a constant for this value.",
+        "effort": "5min",
+        "debt": "5min",
+        "author": "eaardal@outlook.com",
+        "tags": [
+          "confusing"
+        ],
+        "creationDate": "2016-02-01T16:04:29-0200",
+        "updateDate": "2025-05-04T21:59:52-0300",
+        "type": "CODE_SMELL",
+        "scope": "MAIN",
+        "quickFixAvailable": false,
+        "messageFormattings": [],
+        "codeVariants": [],
+        "cleanCodeAttribute": "CLEAR",
+        "cleanCodeAttributeCategory": "INTENTIONAL",
+        "impacts": [
+          {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "LOW"
+          }
+        ],
+        "issueStatus": "OPEN",
+        "prioritizedRule": false
+      },
+      {
+        "key": "251c623e-5b9a-4db8-b3ba-41a551a118c9",
+        "rule": "java:S3400",
+        "severity": "MINOR",
+        "component": "code-smells:src/main/java/nerdschool/bar/Pub.java",
+        "project": "code-smells",
+        "line": 45,
+        "hash": "1ca37b551aab068538085bf2780bf4fd",
+        "textRange": {
+          "startLine": 45,
+          "endLine": 45,
+          "startOffset": 15,
+          "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method and declare a constant for this value.",
+        "effort": "5min",
+        "debt": "5min",
+        "author": "eaardal@outlook.com",
+        "tags": [
+          "confusing"
+        ],
+        "creationDate": "2016-02-01T16:04:29-0200",
+        "updateDate": "2025-05-04T21:59:52-0300",
+        "type": "CODE_SMELL",
+        "scope": "MAIN",
+        "quickFixAvailable": false,
+        "messageFormattings": [],
+        "codeVariants": [],
+        "cleanCodeAttribute": "CLEAR",
+        "cleanCodeAttributeCategory": "INTENTIONAL",
+        "impacts": [
+          {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "LOW"
+          }
+        ],
+        "issueStatus": "OPEN",
+        "prioritizedRule": false
+      },
+      {
+        "key": "e616f0f3-184d-4abe-bd20-14eaf5cd69cf",
+        "rule": "java:S3400",
+        "severity": "MINOR",
+        "component": "code-smells:src/main/java/nerdschool/bar/Pub.java",
+        "project": "code-smells",
+        "line": 50,
+        "hash": "1ca37b551aab068538085bf2780bf4fd",
+        "textRange": {
+          "startLine": 50,
+          "endLine": 50,
+          "startOffset": 15,
+          "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method and declare a constant for this value.",
+        "effort": "5min",
+        "debt": "5min",
+        "author": "eaardal@outlook.com",
+        "tags": [
+          "confusing"
+        ],
+        "creationDate": "2016-02-01T16:04:29-0200",
+        "updateDate": "2025-05-04T21:59:52-0300",
+        "type": "CODE_SMELL",
+        "scope": "MAIN",
+        "quickFixAvailable": false,
+        "messageFormattings": [],
+        "codeVariants": [],
+        "cleanCodeAttribute": "CLEAR",
+        "cleanCodeAttributeCategory": "INTENTIONAL",
+        "impacts": [
+          {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "LOW"
+          }
+        ],
+        "issueStatus": "OPEN",
+        "prioritizedRule": false
+      },
+      {
+        "key": "d9ec25e2-3c6d-4ef9-af82-db8aaf1dc877",
+        "rule": "java:S3400",
+        "severity": "MINOR",
+        "component": "code-smells:src/main/java/nerdschool/bar/Pub.java",
+        "project": "code-smells",
+        "line": 55,
+        "hash": "1ca37b551aab068538085bf2780bf4fd",
+        "textRange": {
+          "startLine": 55,
+          "endLine": 55,
+          "startOffset": 15,
+          "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method and declare a constant for this value.",
+        "effort": "5min",
+        "debt": "5min",
+        "author": "eaardal@outlook.com",
+        "tags": [
+          "confusing"
+        ],
+        "creationDate": "2016-02-01T16:04:29-0200",
+        "updateDate": "2025-05-04T21:59:52-0300",
+        "type": "CODE_SMELL",
+        "scope": "MAIN",
+        "quickFixAvailable": false,
+        "messageFormattings": [],
+        "codeVariants": [],
+        "cleanCodeAttribute": "CLEAR",
+        "cleanCodeAttributeCategory": "INTENTIONAL",
+        "impacts": [
+          {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "LOW"
+          }
+        ],
+        "issueStatus": "OPEN",
+        "prioritizedRule": false
+      },
+      {
+        "key": "a3cb92cc-a956-423a-9587-81876af34cba",
+        "rule": "java:S3400",
+        "severity": "MINOR",
+        "component": "code-smells:src/main/java/nerdschool/bar/Pub.java",
+        "project": "code-smells",
+        "line": 60,
+        "hash": "7c4d3a485bf800d5c0dbd3ee989e3bdb",
+        "textRange": {
+          "startLine": 60,
+          "endLine": 60,
+          "startOffset": 15,
+          "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method and declare a constant for this value.",
+        "effort": "5min",
+        "debt": "5min",
+        "author": "eaardal@outlook.com",
+        "tags": [
+          "confusing"
+        ],
+        "creationDate": "2016-02-01T16:04:29-0200",
+        "updateDate": "2025-05-04T21:59:52-0300",
+        "type": "CODE_SMELL",
+        "scope": "MAIN",
+        "quickFixAvailable": false,
+        "messageFormattings": [],
+        "codeVariants": [],
+        "cleanCodeAttribute": "CLEAR",
+        "cleanCodeAttributeCategory": "INTENTIONAL",
+        "impacts": [
+          {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "LOW"
+          }
+        ],
+        "issueStatus": "OPEN",
+        "prioritizedRule": false
+      },
+      {
+        "key": "705da194-9589-4e19-9f07-f68091978d5c",
+        "rule": "java:S3400",
+        "severity": "MINOR",
+        "component": "code-smells:src/main/java/nerdschool/bar/Pub.java",
+        "project": "code-smells",
+        "line": 65,
+        "hash": "9d4144ffdf78ac3a29efb69faf1f0454",
+        "textRange": {
+          "startLine": 65,
+          "endLine": 65,
+          "startOffset": 15,
+          "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method and declare a constant for this value.",
+        "effort": "5min",
+        "debt": "5min",
+        "author": "eaardal@outlook.com",
+        "tags": [
+          "confusing"
+        ],
+        "creationDate": "2016-02-01T16:04:29-0200",
+        "updateDate": "2025-05-04T21:59:52-0300",
+        "type": "CODE_SMELL",
+        "scope": "MAIN",
+        "quickFixAvailable": false,
+        "messageFormattings": [],
+        "codeVariants": [],
+        "cleanCodeAttribute": "CLEAR",
+        "cleanCodeAttributeCategory": "INTENTIONAL",
+        "impacts": [
+          {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "LOW"
+          }
+        ],
+        "issueStatus": "OPEN",
+        "prioritizedRule": false
+      },
+      {
+        "key": "b11b1974-a078-4b0e-9111-792917cb9988",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "code-smells:src/test/java/nerdschool/bar/PubPricesTest.java",
+        "project": "code-smells",
+        "line": 17,
+        "hash": "45d2399c17aa27e097ba732372f4418e",
+        "textRange": {
+          "startLine": 17,
+          "endLine": 17,
+          "startOffset": 31,
+          "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "author": "eaardal@outlook.com",
+        "tags": [
+          "cwe",
+          "error-handling",
+          "cert"
+        ],
+        "creationDate": "2016-02-01T16:04:29-0200",
+        "updateDate": "2025-05-04T21:59:52-0300",
+        "type": "CODE_SMELL",
+        "scope": "MAIN",
+        "quickFixAvailable": false,
+        "messageFormattings": [],
+        "codeVariants": [],
+        "cleanCodeAttribute": "COMPLETE",
+        "cleanCodeAttributeCategory": "INTENTIONAL",
+        "impacts": [
+          {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "MEDIUM"
+          }
+        ],
+        "issueStatus": "OPEN",
+        "prioritizedRule": false
+      },
+      {
+        "key": "ba05aa13-2338-4a28-8fc9-62db9ebdc751",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "code-smells:src/test/java/nerdschool/bar/PubPricesTest.java",
+        "project": "code-smells",
+        "line": 17,
+        "hash": "45d2399c17aa27e097ba732372f4418e",
+        "textRange": {
+          "startLine": 17,
+          "endLine": 17,
+          "startOffset": 31,
+          "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "author": "eaardal@outlook.com",
+        "tags": [
+          "error-handling",
+          "unused",
+          "redundant",
+          "clumsy"
+        ],
+        "creationDate": "2016-02-01T16:04:29-0200",
+        "updateDate": "2025-05-04T21:59:52-0300",
+        "type": "CODE_SMELL",
+        "scope": "MAIN",
+        "quickFixAvailable": true,
+        "messageFormattings": [],
+        "codeVariants": [],
+        "cleanCodeAttribute": "CLEAR",
+        "cleanCodeAttributeCategory": "INTENTIONAL",
+        "impacts": [
+          {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "LOW"
+          }
+        ],
+        "issueStatus": "OPEN",
+        "prioritizedRule": false
+      },
+      {
+        "key": "192429b3-f4e0-461c-945d-20f62e65a98f",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "code-smells:src/test/java/nerdschool/bar/PubPricesTest.java",
+        "project": "code-smells",
+        "line": 98,
+        "hash": "cc36a011fbd7fe4df561f9c4a56191e0",
+        "textRange": {
+          "startLine": 98,
+          "endLine": 98,
+          "startOffset": 58,
+          "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "author": "eaardal@outlook.com",
+        "tags": [
+          "cwe",
+          "error-handling",
+          "cert"
+        ],
+        "creationDate": "2016-02-01T16:04:29-0200",
+        "updateDate": "2025-05-04T21:59:52-0300",
+        "type": "CODE_SMELL",
+        "scope": "MAIN",
+        "quickFixAvailable": false,
+        "messageFormattings": [],
+        "codeVariants": [],
+        "cleanCodeAttribute": "COMPLETE",
+        "cleanCodeAttributeCategory": "INTENTIONAL",
+        "impacts": [
+          {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "MEDIUM"
+          }
+        ],
+        "issueStatus": "OPEN",
+        "prioritizedRule": false
+      },
+      {
+        "key": "8c3071e9-0bbd-4c50-ba0f-c89536172bde",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "code-smells:src/test/java/nerdschool/bar/PubPricesTest.java",
+        "project": "code-smells",
+        "line": 98,
+        "hash": "cc36a011fbd7fe4df561f9c4a56191e0",
+        "textRange": {
+          "startLine": 98,
+          "endLine": 98,
+          "startOffset": 58,
+          "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "author": "eaardal@outlook.com",
+        "tags": [
+          "error-handling",
+          "unused",
+          "redundant",
+          "clumsy"
+        ],
+        "creationDate": "2016-02-01T16:04:29-0200",
+        "updateDate": "2025-05-04T21:59:52-0300",
+        "type": "CODE_SMELL",
+        "scope": "MAIN",
+        "quickFixAvailable": true,
+        "messageFormattings": [],
+        "codeVariants": [],
+        "cleanCodeAttribute": "CLEAR",
+        "cleanCodeAttributeCategory": "INTENTIONAL",
+        "impacts": [
+          {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "LOW"
+          }
+        ],
+        "issueStatus": "OPEN",
+        "prioritizedRule": false
+      }
+    ],
+    "components": [
+      {
+        "key": "code-smells:src/test/java/nerdschool/bar/PubPricesTest.java",
+        "enabled": true,
+        "qualifier": "FIL",
+        "name": "PubPricesTest.java",
+        "longName": "src/test/java/nerdschool/bar/PubPricesTest.java",
+        "path": "src/test/java/nerdschool/bar/PubPricesTest.java"
+      },
+      {
+        "key": "code-smells:src/main/java/nerdschool/bar/Pub.java",
+        "enabled": true,
+        "qualifier": "FIL",
+        "name": "Pub.java",
+        "longName": "src/main/java/nerdschool/bar/Pub.java",
+        "path": "src/main/java/nerdschool/bar/Pub.java"
+      },
+      {
+        "key": "code-smells",
+        "enabled": true,
+        "qualifier": "TRK",
+        "name": "code-smells",
+        "longName": "code-smells"
+      }
+    ],
+    "facets": []
+  }
