@@ -4,7 +4,7 @@ REPO_CLONE_PATH = "repo_miner/data/raw_repos"
 MAX_REPOS = 1
 
 REPOSITORIES = [
-    "ArjanCodes/2021-code-smells"  
+    "nerdschoolbergen/code-smells" 
 ]
 
 # Token pessoal do GitHub (opcional)ro
