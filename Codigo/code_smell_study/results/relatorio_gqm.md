@@ -1,73 +1,73 @@
-# RelatÃ³rio GQM: ComparaÃ§Ã£o entre LLM e SonarQube na DetecÃ§Ã£o de Code Smells
+# Relatório GQM: Comparação entre LLM e SonarQube na Detecção de Code Smells
 
-RepositÃ³rio analisado: **Code_Smells**
+Repositório analisado: **.repo**
 
-## QuestÃ£oo 1: Qual das duas abordagens detecta mais code smells clÃ¡ssicos?
+## Questão 1: Qual das duas abordagens detecta mais code smells clássicos?
 
-### MÃ©trica 1.1: NÃºmero total de code smells detectados
+### Métrica 1.1: Número total de code smells detectados
 
 | Abordagem | Quantidade de Smells |
 |-----------|----------------------|
 | LLM | 7 |
 | SonarQube | 12 |
-| DiferenÃ§a absoluta | 5 |
-| RelaÃ§Ã£o percentual (LLM/SonarQube) | 58.33% |
+| Diferença absoluta | 5 |
+| Relação percentual (LLM/SonarQube) | 58.33% |
 
-### MÃ©trica 1.2: MÃ©dia de code smells detectados por arquivo
+### Métrica 1.2: Média de code smells detectados por arquivo
 
-| Abordagem | MÃ©dia de Smells por Arquivo | Arquivos com Smells |
+| Abordagem | Média de Smells por Arquivo | Arquivos com Smells |
 |-----------|------------------------------|---------------------|
 | LLM | 7.00 | 1 |
 | SonarQube | 6.00 | 2 |
 
-### MÃ©trica 1.3: DiferenÃ§a mÃ©dia de detecÃ§Ã£o por arquivo
+### Métrica 1.3: Diferença média de detecção por arquivo
 
-- DiferenÃ§a mÃ©dia por arquivo
-- NÃºmero de arquivos comuns analisados
+- Diferença média por arquivo: **0.00**
+- Número de arquivos comuns analisados: **0**
 
 ![Total de Code Smells](./q1_total_smells.png)
 
-![Mï¿½dia por Arquivo](./q1_media_por_arquivo.png)
+![Média por Arquivo](./q1_media_por_arquivo.png)
 
-## QuestÃ£o 2: As duas abordagens convergem ou divergem nos resultados?
+## Questão 2: As duas abordagens convergem ou divergem nos resultados?
 
-### MÃ©trica 2.1: Porcentagem de smells detectados simultaneamente
+### Métrica 2.1: Porcentagem de smells detectados simultaneamente
 
-| MÃ©trica | Valor |
+| Métrica | Valor |
 |---------|-------|
 | Smells detectados por ambas abordagens | 2 |
-| Total de smells Ãºnicos (uniï¿½o) | 5 |
-| Taxa de similaridade | 40.00% |
+| Total de smells únicos (união) | 17 |
+| Taxa de similaridade | 11.76% |
 
-### MÃ©trica 2.2: Porcentagem de smells exclusivos
+### Métrica 2.2: Porcentagem de smells exclusivos
 
-| MÃ©trica | Valor |
+| Métrica | Valor |
 |---------|-------|
-| Smells exclusivos LLM | 3 |
-| Smells exclusivos SonarQube | 0 |
-| Taxa de exclusividade LLM | 60.00% |
-| Taxa de exclusividade SonarQube | 0.00% |
+| Smells exclusivos LLM | 5 |
+| Smells exclusivos SonarQube | 10 |
+| Taxa de exclusividade LLM | 29.41% |
+| Taxa de exclusividade SonarQube | 58.82% |
 
-### MÃ©trica 2.3: NÃºmero de categorias com alta/baixa sobreposiÃ§Ã£o
+### Métrica 2.3: Número de categorias com alta/baixa sobreposição
 
-| MÃ©trica | Valor |
+| Métrica | Valor |
 |---------|-------|
-| Categorias com alta sobreposiÃ§Ã£o (>80%) | 2 |
-| Categorias com baixa sobreposiÃ§Ã£o (<20%) | 3 |
+| Categorias com alta sobreposição (>80%) | 0 |
+| Categorias com baixa sobreposição (<20%) | 5 |
 | Total de categorias analisadas | 5 |
 
-![DistribuiÃ§Ã£o de Smells](./q2_distribuicao_smells.png)
+![Distribuição de Smells](./q2_distribuicao_smells.png)
 
 ![Taxas Percentuais](./q2_taxas_percentuais.png)
 
-![Sobreposiï¿½ï¿½o por Categoria](./q2_sobreposicao_por_categoria.png)
+![Sobreposição por Categoria](./q2_sobreposicao_por_categoria.png)
 
-## QuestÃ£o 3: Existem categorias de smells mais detectadas por cada abordagem?
+## Questão 3: Existem categorias de smells mais detectadas por cada abordagem?
 
-### MÃ©trica 3.1: NÃºmero mÃ©dio de smells por categoria
+### Métrica 3.1: Número médio de smells por categoria
 
-- LLM: mÃ©dia de **1.40** smells por categoria
-- SonarQube: mÃ©dia de **6.00** smells por categoria
+- LLM: média de **1.40** smells por categoria
+- SonarQube: média de **6.00** smells por categoria
 
 | Categoria | LLM | SonarQube |
 |-----------|-----|----------|
@@ -77,25 +77,25 @@ RepositÃ³rio analisado: **Code_Smells**
 | Long Method | 2 | 0 |
 | Magic Numbers | 1 | 6 |
 
-### MÃ©trica 3.2: Porcentagem de smells simultÃ¢neos por categoria
+### Métrica 3.2: Porcentagem de smells simultâneos por categoria
 
-| Categoria | NÃºmero de Smells SimultÃ¢neos | % de Simultaneidade |
+| Categoria | Número de Smells Simultâneos | % de Simultaneidade |
 |-----------|------------------------------|--------------------|
 | Duplicate Code | 0 | 0.00% |
-| Exception Handling | 1 | 100.00% |
+| Exception Handling | 1 | 16.67% |
 | Feature Envy | 0 | 0.00% |
 | Long Method | 0 | 0.00% |
-| Magic Numbers | 1 | 100.00% |
+| Magic Numbers | 1 | 16.67% |
 
-### MÃ©trica 3.3: Porcentagem de smells exclusivos por categoria
+### Métrica 3.3: Porcentagem de smells exclusivos por categoria
 
 | Categoria | Exclusivos LLM | % LLM | Exclusivos SonarQube | % SonarQube |
 |-----------|----------------|-------|---------------------|-------------|
-| Duplicate Code | 1 | 100.00% | 0 | 0.00% |
-| Exception Handling | 0 | 0.00% | 0 | 0.00% |
+| Duplicate Code | 2 | 100.00% | 0 | 0.00% |
+| Exception Handling | 0 | 0.00% | 5 | 83.33% |
 | Feature Envy | 1 | 100.00% | 0 | 0.00% |
-| Long Method | 1 | 100.00% | 0 | 0.00% |
-| Magic Numbers | 0 | 0.00% | 0 | 0.00% |
+| Long Method | 2 | 100.00% | 0 | 0.00% |
+| Magic Numbers | 0 | 0.00% | 5 | 83.33% |
 
 ![Contagem por Categoria](./q3_contagem_por_categoria.png)
 
@@ -103,31 +103,31 @@ RepositÃ³rio analisado: **Code_Smells**
 
 ![Heatmap de Categorias](./q3_heatmap_categorias.png)
 
-## ConclusÃµes
+## Conclusões
 
-### QuestÃ£o 1: Qual das duas abordagens detecta mais code smells clÃ¡ssicos?
+### Questão 1: Qual das duas abordagens detecta mais code smells clássicos?
 
-O SonarQube detectou mais code smells (12) em comparaÃ§Ã£o com a abordagem LLM (7). A diferenÃ§a mÃ©dia por arquivo foi de 5.00 smells, o que indica uma discrepÃ¢ncia significativa entre as abordagens na detecÃ§Ã£o em nÃ­vel de arquivo.
+O SonarQube detectou mais code smells (12) em comparação com a abordagem LLM (7). A diferença média por arquivo foi de 0.00 smells, o que indica uma discrepância significativa entre as abordagens na detecção em nível de arquivo.
 
-### QuestÃ£o 2: As duas abordagens convergem ou divergem nos resultados?
+### Questão 2: As duas abordagens convergem ou divergem nos resultados?
 
-A taxa de similaridade entre as abordagens foi de 40.00%, indicando uma **divergÃªncia moderada** entre os resultados. Das 5 categorias analisadas, 2 apresentaram alta sobreposiÃ§Ã£o (>80%) e 3 apresentaram baixa sobreposiÃ§Ã£oo (<20%).
+A taxa de similaridade entre as abordagens foi de 11.76%, indicando uma **alta divergência** entre os resultados. Das 5 categorias analisadas, 0 apresentaram alta sobreposição (>80%) e 5 apresentaram baixa sobreposição (<20%).
 
-### QuestÃ£o 3: Existem categorias de smells mais detectadas por cada abordagem?
+### Questão 3: Existem categorias de smells mais detectadas por cada abordagem?
 
-A LLM detectou mais frequentemente smells da categoria **Long Method** com 2 ocorrÃªncias. O SonarQube detectou mais frequentemente smells da categoria **Exception Handling** com 6 ocorrÃªncias.
+A LLM detectou mais frequentemente smells da categoria **Long Method** com 2 ocorrências. O SonarQube detectou mais frequentemente smells da categoria **Exception Handling** com 6 ocorrências.
 
-A categoria com maior divergÃªncia entre as abordagens foi **Duplicate Code**, com 100.00% de detecÃ§Ãµes exclusivas somadas.
+A categoria com maior divergência entre as abordagens foi **Duplicate Code**, com 100.00% de detecções exclusivas somadas.
 
-## RecomendaÃ§Ãµes
+## Recomendações
 
-Com base na anÃ¡lise realizada, recomenda-se:
+Com base na análise realizada, recomenda-se:
 
-1. **Abordagem complementar**: Utilizar ambas as ferramentas em conjunto, jÃ¡ que apresentam uma taxa de similaridade de apenas 40.00%, complementando-se na detecÃ§Ã£o.
+1. **Abordagem complementar**: Utilizar ambas as ferramentas em conjunto, já que apresentam uma taxa de similaridade de apenas 11.76%, complementando-se na detecção.
 
-2. **Foco em categorias especÃ­ficas**: A LLM mostrou maior eficiÃªncia na detecÃ§Ã£o de smells do tipo **Long Method**, enquanto o SonarQube se destacou em **Exception Handling**. Considerar essa especializaÃ§Ã£o ao escolher a ferramenta adequada.
+2. **Foco em categorias específicas**: A LLM mostrou maior eficácia na detecção de smells do tipo **Long Method**, enquanto o SonarQube se destacou em **Exception Handling**. Considerar essa especialização ao escolher a ferramenta adequada.
 
-3. **ValidaÃ§Ã£o humana**: Para as categorias com baixa sobreposiÃ§Ã£o entre as ferramentas, Ã© recomendada uma revisÃ£o manual para validar os resultados e identificar os falsos positivos.
+3. **Validação humana**: Para as categorias com baixa sobreposição entre as ferramentas, é recomendada uma revisão manual para validar os resultados e identificar os falsos positivos.
 
 4. **Refinamento de prompts**: Os resultados sugerem oportunidades para aprimorar a engenharia de prompts para as LLMs, especialmente nas categorias onde o SonarQube se mostrou mais eficaz.
 
