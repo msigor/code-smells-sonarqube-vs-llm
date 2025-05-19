@@ -1,0 +1,27 @@
+{
+ 
+  "summary": {
+    "total_issues": 647,
+    "issues_by_severity": {
+      "warning": 647
+    },
+    "issues_by_type": {
+      "MagicNumberCheck": 285,
+      "LineLengthCheck": 226,
+      "ClassDataAbstractionCouplingCheck": 17,
+      "ClassFanOutComplexityCheck": 22,
+      "CyclomaticComplexityCheck": 28,
+      "NPathComplexityCheck": 8,
+      "MethodLengthCheck": 21,
+      "MissingSwitchDefaultCheck": 5,
+      "JavadocMethodCheck": 20,
+      "BooleanExpressionComplexityCheck": 4,
+      "TodoCommentCheck": 1,
+      "AbstractClassNameCheck": 6,
+      "UnusedImportsCheck": 4
+    }
+  },
+  "repository": {
+    "name": "elastic_elasticsearch"
+  }
+}

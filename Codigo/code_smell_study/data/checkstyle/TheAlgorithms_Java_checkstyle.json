@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "total_issues": 14832,
+    "issues_by_severity": {
+      "warning": 14832
+    },
+    "issues_by_type": {
+      "LineLengthCheck": 850,
+      "JavadocMethodCheck": 323,
+      "BooleanExpressionComplexityCheck": 6,
+      "MagicNumberCheck": 13515,
+      "JavadocTypeCheck": 35,
+      "AbstractClassNameCheck": 9,
+      "FileLengthCheck": 2,
+      "MethodLengthCheck": 21,
+      "CyclomaticComplexityCheck": 44,
+      "NPathComplexityCheck": 21,
+      "FileTabCharacterCheck": 6
+    }
+  },
+  "repository": {
+    "name": "TheAlgorithms_Java"
+  }
+}

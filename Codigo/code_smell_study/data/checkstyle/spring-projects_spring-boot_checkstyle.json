@@ -1,0 +1,23 @@
+{ 
+   "summary": {
+    "total_issues": 11099,
+    "issues_by_severity": {
+      "warning": 11099
+    },
+    "issues_by_type": {
+      "FileTabCharacterCheck": 10610,
+      "LineLengthCheck": 402,
+      "AbstractClassNameCheck": 51,
+      "ClassFanOutComplexityCheck": 4,
+      "MagicNumberCheck": 25,
+      "MissingSwitchDefaultCheck": 1,
+      "ClassDataAbstractionCouplingCheck": 3,
+      "BooleanExpressionComplexityCheck": 1,
+      "CyclomaticComplexityCheck": 1,
+      "NPathComplexityCheck": 1
+    }
+  },
+  "repository": {
+    "name": "spring-projects_spring-boot"
+  }
+}

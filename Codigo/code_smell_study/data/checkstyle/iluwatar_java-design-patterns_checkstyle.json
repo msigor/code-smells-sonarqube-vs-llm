@@ -1,0 +1,25 @@
+ 
+ {
+  "summary": {
+    "total_issues": 3987,
+    "issues_by_severity": {
+      "warning": 3987
+    },
+    "issues_by_type": {
+      "LineLengthCheck": 1818,
+      "MagicNumberCheck": 1574,
+      "JavadocMethodCheck": 426,
+      "AbstractClassNameCheck": 71,
+      "JavadocTypeCheck": 75,
+      "CyclomaticComplexityCheck": 4,
+      "MethodLengthCheck": 8,
+      "ClassDataAbstractionCouplingCheck": 8,
+      "BooleanExpressionComplexityCheck": 1,
+      "ClassFanOutComplexityCheck": 1,
+      "NPathComplexityCheck": 1
+    }
+  },
+  "repository": {
+    "name": "iluwatar_java-design-patterns"
+  }
+}

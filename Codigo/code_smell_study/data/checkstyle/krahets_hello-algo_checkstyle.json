@@ -1,0 +1,19 @@
+{
+   "summary": {
+    "total_issues": 1534,
+    "issues_by_severity": {
+      "warning": 1534
+    },
+    "issues_by_type": {
+      "MagicNumberCheck": 1494,
+      "BooleanExpressionComplexityCheck": 6,
+      "UnusedImportsCheck": 3,
+      "CyclomaticComplexityCheck": 3,
+      "JavadocMethodCheck": 9,
+      "LineLengthCheck": 19
+    }
+  },
+  "repository": {
+    "name": "krahets_hello-algo"
+  }
+}

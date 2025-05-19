@@ -1,0 +1,27 @@
+ {
+    "summary": {
+    "total_issues": 1573,
+    "issues_by_severity": {
+      "warning": 1573
+    },
+    "issues_by_type": {
+      "JavadocMethodCheck": 962,
+      "LineLengthCheck": 301,
+      "ClassFanOutComplexityCheck": 9,
+      "MagicNumberCheck": 61,
+      "FileTabCharacterCheck": 86,
+      "ClassDataAbstractionCouplingCheck": 8,
+      "JavadocTypeCheck": 26,
+      "AbstractClassNameCheck": 77,
+      "CyclomaticComplexityCheck": 4,
+      "NPathComplexityCheck": 2,
+      "UnusedImportsCheck": 22,
+      "FileLengthCheck": 10,
+      "TodoCommentCheck": 2,
+      "MethodLengthCheck": 3
+    }
+  },
+  "repository": {
+    "name": "macrozheng_mall"
+  }
+}

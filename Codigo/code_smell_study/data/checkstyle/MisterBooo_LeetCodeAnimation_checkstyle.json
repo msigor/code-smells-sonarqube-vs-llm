@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "total_issues": 45,
+    "issues_by_severity": {
+      "warning": 45
+    },
+    "issues_by_type": {
+      "CyclomaticComplexityCheck": 1,
+      "FileTabCharacterCheck": 31,
+      "MagicNumberCheck": 13
+    }
+  },
+  "repository": {
+    "name": "MisterBooo_LeetCodeAnimation"
+}
+}
