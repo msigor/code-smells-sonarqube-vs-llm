@@ -2,6 +2,7 @@ import os
 import subprocess
 from dotenv import load_dotenv
 from pathlib import Path
+import requests
 
 # Carrega o .env da pasta config/
 env_path = Path(__file__).resolve().parent.parent / "config" / ".env"
@@ -15,6 +16,21 @@ REPO_PATH = os.path.abspath(os.path.join("..", "data", "repos"))
 OUTPUT_DIR = os.path.abspath(os.path.join("..", "data", "sonarqube"))
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+def download_issues(project_key):
+    print(f"📥 Baixando issues do projeto: {project_key}")
+    url = f"{SONARQUBE_URL}/api/issues/search?componentKeys={project_key}&types=CODE_SMELL&ps=500"
+    
+    response = requests.get(url, auth=(SONARQUBE_TOKEN, ""))
+    
+    if response.status_code == 200:
+        json_path = os.path.join(OUTPUT_DIR, f"{project_key}.json")
+        with open(json_path, "w") as f:
+            f.write(response.text)
+        print(f"✅ Issues salvas em {json_path}")
+    else:
+        print(f"❌ Falha ao baixar issues: {response.status_code}")
+        print(response.text)
 
 def run_sonar_scanner(repo_name, repo_dir):
     project_key = repo_name.replace("/", "_")
@@ -38,6 +54,7 @@ def run_sonar_scanner(repo_name, repo_dir):
         print(result.stderr)
     else:
         print(f"✅ Análise concluída: {repo_name}")
+        download_issues(project_key)
 
 def process_all_repos():
     for repo_name in os.listdir(REPO_PATH):
