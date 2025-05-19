@@ -1,0 +1,284 @@
+2025-05-19 11:52:57,368 - __main__ - INFO - Iniciando mineração de repositórios...
+2025-05-19 11:52:57,368 - __main__ - INFO - Configurações: max_repos=10, min_stars=1000, clone_path=repo_miner/data/raw_repos
+2025-05-19 11:52:57,373 - core.fetcher - INFO - Buscando até 10 repositórios Java com pelo menos 1000 estrelas...
+2025-05-19 11:52:57,974 - core.fetcher - INFO - Total de 1000 repositórios encontrados. Selecionando os 10 mais populares.
+2025-05-19 11:52:59,775 - core.fetcher - INFO - Clonando repositório Snailclimb/JavaGuide para repo_miner/data/raw_repos\Snailclimb_JavaGuide...
+2025-05-19 11:53:33,422 - core.fetcher - INFO - Repositório Snailclimb/JavaGuide clonado com sucesso para repo_miner/data/raw_repos\Snailclimb_JavaGuide
+2025-05-19 11:53:33,424 - core.fetcher - INFO - Clonando repositório krahets/hello-algo para repo_miner/data/raw_repos\krahets_hello-algo...
+2025-05-19 11:54:42,956 - core.fetcher - INFO - Repositório krahets/hello-algo clonado com sucesso para repo_miner/data/raw_repos\krahets_hello-algo
+2025-05-19 11:54:42,957 - core.fetcher - INFO - Clonando repositório iluwatar/java-design-patterns para repo_miner/data/raw_repos\iluwatar_java-design-patterns...
+2025-05-19 11:55:13,596 - core.fetcher - ERROR - Falha ao clonar iluwatar/java-design-patterns: Cloning into 'repo_miner/data/raw_repos\iluwatar_java-design-patterns'...
+Updating files:   9% (341/3460)
+Updating files:  10% (346/3460)
+Updating files:  11% (381/3460)
+Updating files:  12% (416/3460)
+Updating files:  13% (450/3460)
+Updating files:  14% (485/3460)
+Updating files:  15% (519/3460)
+Updating files:  16% (554/3460)
+Updating files:  17% (589/3460)
+Updating files:  18% (623/3460)
+Updating files:  18% (629/3460)
+Updating files:  19% (658/3460)
+Updating files:  20% (692/3460)
+Updating files:  21% (727/3460)
+Updating files:  22% (762/3460)
+Updating files:  23% (796/3460)
+Updating files:  24% (831/3460)
+Updating files:  25% (865/3460)
+Updating files:  26% (900/3460)
+Updating files:  27% (935/3460)
+Updating files:  28% (969/3460)
+Updating files:  29% (1004/3460)
+Updating files:  30% (1038/3460)
+Updating files:  31% (1073/3460)
+Updating files:  32% (1108/3460)
+Updating files:  33% (1142/3460)
+Updating files:  34% (1177/3460)
+Updating files:  35% (1211/3460)
+Updating files:  36% (1246/3460)
+Updating files:  37% (1281/3460)
+Updating files:  37% (1298/3460)
+Updating files:  38% (1315/3460)
+Updating files:  39% (1350/3460)
+Updating files:  40% (1384/3460)
+Updating files:  41% (1419/3460)
+Updating files:  42% (1454/3460)
+Updating files:  43% (1488/3460)
+Updating files:  44% (1523/3460)
+Updating files:  44% (1550/3460)
+Updating files:  45% (1557/3460)
+Updating files:  46% (1592/3460)
+Updating files:  47% (1627/3460)
+Updating files:  48% (1661/3460)
+Updating files:  49% (1696/3460)
+Updating files:  50% (1730/3460)
+Updating files:  51% (1765/3460)
+Updating files:  52% (1800/3460)
+Updating files:  53% (1834/3460)
+Updating files:  53% (1844/3460)
+Updating files:  54% (1869/3460)
+Updating files:  55% (1903/3460)
+Updating files:  56% (1938/3460)
+Updating files:  57% (1973/3460)
+Updating files:  58% (2007/3460)
+Updating files:  59% (2042/3460)
+Updating files:  60% (2076/3460)
+error: unable to create file microservices-aggregrator/aggregator-service/src/main/java/com/iluwatar/aggregator/microservices/ProductInformationClientImpl.java: Filename too long
+error: unable to create file microservices-aggregrator/information-microservice/src/main/java/com/iluwatar/information/microservice/InformationApplication.java: Filename too long
+Updating files:  61% (2111/3460)
+error: unable to create file microservices-aggregrator/information-microservice/src/test/java/com/iluwatar/information/microservice/InformationControllerTest.java: Filename too long
+Updating files:  61% (2143/3460)
+Updating files:  62% (2146/3460)
+Updating files:  63% (2180/3460)
+warning: unable to access 'microservices-distributed-tracing/product-microservice/src/main/java/com/iluwatar/product/microservice/microservice/.gitattributes': Filename too long
+error: unable to create file microservices-distributed-tracing/product-microservice/src/main/java/com/iluwatar/product/microservice/microservice/ProductController.java: Filename too long
+Updating files:  64% (2215/3460)
+Updating files:  65% (2249/3460)
+Updating files:  66% (2284/3460)
+Updating files:  67% (2319/3460)
+Updating files:  68% (2353/3460)
+Updating files:  69% (2388/3460)
+Updating files:  70% (2422/3460)
+Updating files:  70% (2445/3460)
+Updating files:  71% (2457/3460)
+Updating files:  72% (2492/3460)
+Updating files:  73% (2526/3460)
+Updating files:  74% (2561/3460)
+Updating files:  75% (2595/3460)
+Updating files:  76% (2630/3460)
+Updating files:  77% (2665/3460)
+Updating files:  78% (2699/3460)
+Updating files:  79% (2734/3460)
+Updating files:  79% (2763/3460)
+Updating files:  80% (2768/3460)
+Updating files:  81% (2803/3460)
+Updating files:  82% (2838/3460)
+Updating files:  83% (2872/3460)
+Updating files:  84% (2907/3460)
+Updating files:  85% (2941/3460)
+Updating files:  86% (2976/3460)
+Updating files:  87% (3011/3460)
+Updating files:  88% (3045/3460)
+Updating files:  88% (3047/3460)
+Updating files:  89% (3080/3460)
+Updating files:  90% (3114/3460)
+Updating files:  91% (3149/3460)
+Updating files:  92% (3184/3460)
+Updating files:  93% (3218/3460)
+Updating files:  94% (3253/3460)
+Updating files:  95% (3287/3460)
+Updating files:  96% (3322/3460)
+Updating files:  96% (3330/3460)
+Updating files:  97% (3357/3460)
+Updating files:  98% (3391/3460)
+Updating files:  99% (3426/3460)
+Updating files: 100% (3460/3460)
+Updating files: 100% (3460/3460), done.
+warning: the following paths have collided (e.g. case-sensitive paths
+on a case-insensitive filesystem) and only one from the same
+colliding group is in the working tree:
+
+  'clean-architecture/etc/cleanArchitectureUMLDiagram.PNG'
+  'clean-architecture/etc/cleanArchitectureUMLDiagram.png'
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+2025-05-19 11:55:13,602 - core.fetcher - INFO - Clonando repositório macrozheng/mall para repo_miner/data/raw_repos\macrozheng_mall...
+2025-05-19 11:55:23,104 - core.fetcher - INFO - Repositório macrozheng/mall clonado com sucesso para repo_miner/data/raw_repos\macrozheng_mall
+2025-05-19 11:55:23,105 - core.fetcher - INFO - Clonando repositório doocs/advanced-java para repo_miner/data/raw_repos\doocs_advanced-java...
+2025-05-19 11:55:30,164 - core.fetcher - INFO - Repositório doocs/advanced-java clonado com sucesso para repo_miner/data/raw_repos\doocs_advanced-java
+2025-05-19 11:55:30,166 - core.fetcher - INFO - Clonando repositório spring-projects/spring-boot para repo_miner/data/raw_repos\spring-projects_spring-boot...
+2025-05-19 11:56:13,811 - core.fetcher - ERROR - Falha ao clonar spring-projects/spring-boot: Cloning into 'repo_miner/data/raw_repos\spring-projects_spring-boot'...
+error: unable to create file buildSrc/src/test/java/org/springframework/boot/build/architecture/bfpp/nonstatic/NonStaticBeanFactoryPostProcessorConfiguration.java: Filename too long
+error: unable to create file buildSrc/src/test/java/org/springframework/boot/build/architecture/bfpp/noparameters/NoParametersBeanFactoryPostProcessorConfiguration.java: Filename too long
+error: unable to create file buildSrc/src/test/java/org/springframework/boot/build/architecture/bfpp/parameters/ParametersBeanFactoryPostProcessorConfiguration.java: Filename too long
+error: unable to create file buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/safeparameters/SafeParametersBeanPostProcessorConfiguration.java: Filename too long
+error: unable to create file buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/unsafeparameters/UnsafeParametersBeanPostProcessorConfiguration.java: Filename too long
+error: unable to create file buildSrc/src/test/java/org/springframework/boot/build/architecture/objects/requireNonNullWithSupplier/RequireNonNullWithSupplier.java: Filename too long
+error: unable to create file spring-boot-project/spring-boot-actuator-autoconfigure/src/main/java/org/springframework/boot/actuate/autoconfigure/OnEndpointElementCondition.java: Filename too long
+fatal: cannot create directory at 'spring-boot-project/spring-boot-actuator-autoconfigure/src/main/java/org/springframework/boot/actuate/autoconfigure/amqp': Filename too long
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+2025-05-19 11:56:13,813 - core.fetcher - INFO - Clonando repositório MisterBooo/LeetCodeAnimation para repo_miner/data/raw_repos\MisterBooo_LeetCodeAnimation...
+2025-05-19 11:57:00,801 - core.fetcher - ERROR - Falha ao clonar MisterBooo/LeetCodeAnimation: Cloning into 'repo_miner/data/raw_repos\MisterBooo_LeetCodeAnimation'...
+Updating files:  10% (38/368)
+Updating files:  11% (41/368)
+Updating files:  12% (45/368)
+error: unable to create file 0034-find-first-and-last-position-of-element-in-sorted-array/Article/0034-find-first-and-last-position-of-element-in-sorted-array.md: Filename too long
+Updating files:  13% (48/368)
+Updating files:  14% (52/368)
+Updating files:  15% (56/368)
+Updating files:  16% (59/368)
+Updating files:  17% (63/368)
+Updating files:  18% (67/368)
+Updating files:  19% (70/368)
+Updating files:  20% (74/368)
+Updating files:  21% (78/368)
+Updating files:  21% (80/368)
+Updating files:  22% (81/368)
+Updating files:  23% (85/368)
+Updating files:  24% (89/368)
+Updating files:  25% (92/368)
+Updating files:  26% (96/368)
+Updating files:  26% (97/368)
+Updating files:  27% (100/368)
+Updating files:  28% (104/368)
+Updating files:  29% (107/368)
+Updating files:  29% (109/368)
+Updating files:  30% (111/368)
+Updating files:  30% (112/368)
+Updating files:  31% (115/368)
+Updating files:  32% (118/368)
+Updating files:  33% (122/368)
+Updating files:  34% (126/368)
+Updating files:  35% (129/368)
+Updating files:  36% (133/368)
+Updating files:  36% (135/368)
+Updating files:  37% (137/368)
+Updating files:  38% (140/368)
+Updating files:  39% (144/368)
+Updating files:  40% (148/368)
+Updating files:  41% (151/368)
+Updating files:  42% (155/368)
+Updating files:  42% (158/368)
+Updating files:  43% (159/368)
+Updating files:  44% (162/368)
+Updating files:  45% (166/368)
+Updating files:  46% (170/368)
+Updating files:  47% (173/368)
+Updating files:  48% (177/368)
+Updating files:  49% (181/368)
+Updating files:  50% (184/368)
+Updating files:  51% (188/368)
+Updating files:  52% (192/368)
+Updating files:  53% (196/368)
+Updating files:  54% (199/368)
+Updating files:  55% (203/368)
+Updating files:  56% (207/368)
+Updating files:  57% (210/368)
+Updating files:  57% (211/368)
+Updating files:  58% (214/368)
+Updating files:  59% (218/368)
+Updating files:  60% (221/368)
+Updating files:  61% (225/368)
+Updating files:  61% (228/368)
+Updating files:  62% (229/368)
+Updating files:  62% (230/368)
+Updating files:  63% (232/368)
+Updating files:  64% (236/368)
+Updating files:  64% (239/368)
+Updating files:  65% (240/368)
+Updating files:  66% (243/368)
+Updating files:  67% (247/368)
+Updating files:  68% (251/368)
+Updating files:  69% (254/368)
+Updating files:  70% (258/368)
+Updating files:  70% (261/368)
+Updating files:  71% (262/368)
+Updating files:  72% (265/368)
+Updating files:  73% (269/368)
+Updating files:  74% (273/368)
+Updating files:  75% (276/368)
+Updating files:  76% (280/368)
+Updating files:  77% (284/368)
+Updating files:  77% (286/368)
+Updating files:  78% (288/368)
+Updating files:  79% (291/368)
+Updating files:  80% (295/368)
+Updating files:  81% (299/368)
+Updating files:  82% (302/368)
+Updating files:  83% (306/368)
+Updating files:  84% (310/368)
+Updating files:  85% (313/368)
+Updating files:  86% (317/368)
+Updating files:  87% (321/368)
+Updating files:  88% (324/368)
+Updating files:  89% (328/368)
+Updating files:  90% (332/368)
+Updating files:  91% (335/368)
+Updating files:  92% (339/368)
+Updating files:  93% (343/368)
+Updating files:  94% (346/368)
+Updating files:  95% (350/368)
+Updating files:  96% (354/368)
+Updating files:  97% (357/368)
+Updating files:  98% (361/368)
+Updating files:  99% (365/368)
+Updating files: 100% (368/368)
+Updating files: 100% (368/368), done.
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+2025-05-19 11:57:00,804 - core.fetcher - INFO - Clonando repositório elastic/elasticsearch para repo_miner/data/raw_repos\elastic_elasticsearch...
+2025-05-19 12:00:32,562 - core.fetcher - ERROR - Falha ao clonar elastic/elasticsearch: Cloning into 'repo_miner/data/raw_repos\elastic_elasticsearch'...
+fatal: cannot create directory at 'build-tools-internal/src/integTest/resources/org/elasticsearch/gradle/internal/fake_git/remote/build-tools-internal/src/main/resources': Filename too long
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+2025-05-19 12:00:32,564 - core.fetcher - INFO - Clonando repositório kdn251/interviews para repo_miner/data/raw_repos\kdn251_interviews...
+2025-05-19 12:00:50,567 - core.fetcher - INFO - Repositório kdn251/interviews clonado com sucesso para repo_miner/data/raw_repos\kdn251_interviews
+2025-05-19 12:00:50,570 - core.fetcher - INFO - Clonando repositório TheAlgorithms/Java para repo_miner/data/raw_repos\TheAlgorithms_Java...
+2025-05-19 12:00:57,041 - core.fetcher - INFO - Repositório TheAlgorithms/Java clonado com sucesso para repo_miner/data/raw_repos\TheAlgorithms_Java
+2025-05-19 12:00:57,045 - core.fetcher - INFO - Informações dos repositórios salvas em repo_miner/data\repositories_info.json
+2025-05-19 12:00:57,046 - core.fetcher - INFO - Total de 6 repositórios clonados com sucesso
+2025-05-19 12:00:57,047 - __main__ - INFO - Mineração concluída! 6 repositórios foram clonados.
+2025-05-19 12:00:57,047 - __main__ - INFO - Repositórios clonados:
+2025-05-19 12:00:57,047 - __main__ - INFO - 1. Snailclimb/JavaGuide - 149779 estrelas - repo_miner/data/raw_repos\Snailclimb_JavaGuide
+2025-05-19 12:00:57,049 - __main__ - INFO - 2. krahets/hello-algo - 112619 estrelas - repo_miner/data/raw_repos\krahets_hello-algo
+2025-05-19 12:00:57,049 - __main__ - INFO - 3. macrozheng/mall - 80347 estrelas - repo_miner/data/raw_repos\macrozheng_mall
+2025-05-19 12:00:57,050 - __main__ - INFO - 4. doocs/advanced-java - 77637 estrelas - repo_miner/data/raw_repos\doocs_advanced-java
+2025-05-19 12:00:57,050 - __main__ - INFO - 5. kdn251/interviews - 64146 estrelas - repo_miner/data/raw_repos\kdn251_interviews
+2025-05-19 12:00:57,051 - __main__ - INFO - 6. TheAlgorithms/Java - 61624 estrelas - repo_miner/data/raw_repos\TheAlgorithms_Java
+2025-05-19 12:00:57,051 - __main__ - INFO - Processo de mineração finalizado.
